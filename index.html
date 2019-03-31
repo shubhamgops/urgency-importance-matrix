@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![end if]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![end if]-->
+
+<head>
+	<meta charset="utf-8">
+	<title>Urgency Importance Matrix</title>
+	<meta name="description" content="An Application to store notes in the format of urgency importance.">
+	<meta name="author" content="Shubham Gopale">
+
+	<!-- Mobile Specifc Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Stylessheets -->
+	<link rel="stylesheet" href="css/styles.css" />
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicon and Apple Icons -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/icons/apple-icon.png">
+	<link rel="apple-touch-icon" href="images/icons/apple-icon-72x72.png" sizes="72x72"> 
+	<link rel="apple-touch-icon" href="images/icons/apple-icon-114x114.png" sizes="114x114">
+</head>
+<body>
+	<header>
+		<h1>Urgency Importance Matrix</h1>
+	</header>
+	<main class='container'>
+		<section class="blank"></section>
+		<section class='label urgent'>
+			<p>URGENT</p>
+		</section>
+		<section class='label not-urgent'> 
+			<p>NOT URGENT</p>
+		</section>
+
+		<section class='label important'> 
+			<p>IMPORTANT</p>
+		</section>
+		<section class='cell' style='background:#4effd6;'>
+			<div class="inner-text">
+				Do
+			</div>
+		</section>
+		<section class='cell' style='background:#ff714e;'>
+			<div class="inner-text">
+				Plan
+			</div>
+		</section>
+
+		<section class='label not-important'> 
+			<p>NOT IMPORTANT</p>
+		</section>
+		<section class='cell' style='background:#ffca4e;'>
+			<div class="inner-text">
+				Delegate
+			</div>
+		</section>
+		<section class='cell' style='background:#924eff;'>
+			<div class="inner-text">
+				Eliminate
+			</div>
+		</section>
+	</main>
+	<footer>
+
+	</footer>
+	<!-- JavaScript -->
+	<script src="js/jquery.js"></script>
+</body>
+</html>
